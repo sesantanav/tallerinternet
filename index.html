@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Titulo del Documento HTML</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="imagenes/html.jpeg" type="image/png" size="16x16">
+    <!-- comentarios, type="image/jpg"--> 
+    <!--
+    <link rel="stylesheet" href="tabla.css">
+    -->
+</head>
+<body>
+    <!--
+        <div> division generica, se usa cuando no se puede aplicar otro elementodkd
+        <main> contenido principal, en la parte central del sitio
+        <nav> menu principal, contiene ayuda para la navegacion
+        <section> sección generica, para separar contenido temático 
+        <aside> division de contenido, relacionada con el contenido principal, pero que no es parte del mismo 
+        <article> representa un articulo independiente 
+        <header> Cabecera del documento
+        <footer> Pie del cuerpo o secciones
+    -->
+    <header>
+        <h1>Ejemplos HTML</h1>
+    </header>
+    <nav>
+        Principal | Información | Artículos | Contacto
+    </nav>
+    <main>
+        <section>
+            <article>
+                "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam <br>eius modi tempora incidunt, ut labore et dolore magnam<br> aliquam quaerat voluptatem".
+            </article>
+            <article>
+                "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem".
+            </article>
+            Artículos
+        </section>
+        <section id="atributosGlobales" class="secciones">
+            <h3>Atributos globales</h3>
+            Agregar identificadores asociados a cada elemento 
+            id - atributo para asignar un identificador único a cada elemento
+            class - identificador para un grupo de elementos
+            Poder identificar los diferentes grupos de elementos permite agregar diferentes estilos para cada uno
+        </section>
+        <section id="otrosatributos" class="secciones">
+            <div class="lenguajes">Lenguaje: HTML</div>
+            <div class="lenguajes">Lenguaje: CSS </div>
+            <div class="lenguajes">Lenguaje: Javascript</div>
+            <div class="lenguajes">Lenguaje: php</div>
+        </section>
+            <h1>Contenido del sitio</h1>
+            <h2>Título</h2>
+            <h3>Título</h3>
+            <h4>Título</h4>
+            <h5>Título</h5>
+            <h6>Título</h6>
+            <p>Esta etiqueta nos permite agregar un párrafo de texto en mi sitio<br>
+            Independiente del contenido que yo desee agregar, sin incorporar saltos de linea,
+            agrega texto sin formato para el contenido de la página.</p>
+            <pre>
+            Es para representar texto con un formato definido, generalmente
+            con código de programación, es que agrega los saltos de línea y espacios
+            agregados
+            </pre>
+            <span>Se utiliza para contener un párrafo, no aplica ningún estilos
+                de texto, se utiliza para asignar estilos predefinidos
+            </span>
+            <br>permite agregar saltos de línea en el texto o parráfo<br>
+            <wbr>Permite agregar una sugerencia al navegador donde sue pueden <wbr>
+            encontrar saltos de línea.<br><br>
+            <h3>Formato a las palabras del párrafo</h3>
+            La <em>programación web</em> depende de varios elementos <strong>claves</strong>, para su desarrollo <br>
+            pero al final su <i>elemento</i> clave es <i><b><u>html</u></b></i>, el cual es la base de la <b>programación</b> <rb>
+
+            <h3>Elementos estructurales</h3>
+            <time datetime="2021-04-08" pubdate>Publicado 08/04/2021</time><br>
+            <mark>Resaltan contenido</mark><br>
+            <small>Representa un tipo de letra pequeño</small><br>
+            <cite>Realizar citas de autores, o títulos</cite><br>
+            <address>Entregan información de contacto</address><br>
+            <time>Fecha y formato en forma legible, datetime y pubdate</time><br>
+            <code>Código de programación, se utiliza con la etiqueta pre</code><br>
+            <data>Datos genericos</data><br><br>
+            Ejemplo código
+            <pre>
+            <code>
+                            def funcion(a, b):
+                                suma = a + b 
+                                return suma
+            </code>
+            </pre>
+        </section>
+        <section>
+            Enlaces
+            
+        </section>
+        </main>
+    <footer>
+        <br><br>
+        <address>San Fernando, Chile</address>
+        <small>&copy Taller de Aplicaciones para Internet </small>
+    </footer>
+</body>
+</html>
