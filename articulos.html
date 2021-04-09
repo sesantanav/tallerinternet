@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Titulo del Documento HTML</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="imagenes/html.jpeg" type="image/png" size="16x16">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+   <header>
+        HTML
+    </header>
+    <nav>
+        <!-- comentarios-->
+        <a href="index.html">Principal</a> |
+        <a href="informacion.html">Información</a> |
+        <a href="articulos.html">Artículos</a> |
+        <a href="contacto.html">Contacto</a>
+    </nav>
+    <main>
+    <br>
+    <section id="inicio">
+        Contenidos
+        <ol>
+            <a href="#general"><li>General</li></a>
+            <a href="#atributosGlobales"><li>Atributos Globlales</li></a>
+            <a href="#contenido"><li>Contenido de un sitio</li></a>
+            <a href="#estructurales"><li>Elementos Estructurales</li></a>
+            <a href="#enlaces"><li>Enlaces</li></a>
+            <a href="#imagenes"><li>Imágenes</li></a>
+            <a href="#listados"><li>Listados</li></a>
+            <a href="#tablas"><li>Tablas</li></a>
+            <a href="#formularios"><li>Formularios</li></a>
+        </ol>
+    </section>
+    <article id="general">
+                "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam <br>eius modi tempora incidunt, ut labore et dolore magnam<br> aliquam quaerat voluptatem".
+                "qui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem".
+    </article>
+    <article id="atributosGlobales">
+        Artículos
+        <h3>Atributos globales</h3>
+        Agregar identificadores asociados a cada elemento 
+        <b>id</b> - atributo para asignar un identificador único a cada elemento
+        <b>class</b> - identificador para un grupo de elementos
+        Poder identificar los diferentes grupos de elementos permite agregar diferentes estilos para cada uno y también
+        definir los enlaces.<br>
+        <br>
+        <div class="lenguajes">Lenguaje: HTML</div>
+        <div class="lenguajes">Lenguaje: CSS </div>
+        <div class="lenguajes">Lenguaje: Javascript</div>
+        <div class="lenguajes">Lenguaje: php</div>
+        <br>
+        <p><a href="#inicio">Volver al inicio</a></p>
+    </article>
+    <article id="contenido"> 
+        Es posible agregar títulos con diferentes tamaños de letra: <br>
+        <h1>Contenido del sitio</h1>
+        <h2>Título</h2>
+        <h3>Título</h3>
+        <h4>Título</h4>
+        <h5>Título</h5>
+        <h6>Título</h6>
+        <p>Esta etiqueta nos permite agregar un párrafo de texto en mi sitio<br>
+        Independiente del contenido que yo desee agregar, sin incorporar saltos de linea,
+        agrega texto sin formato para el contenido de la página.</p>
+        <pre>
+            Es para representar texto con un formato definido, generalmente
+            con código de programación, es que agrega los saltos de línea y espacios
+        agregados
+        </pre>
+        <span>Se utiliza para contener un párrafo, no aplica ningún estilos
+                de texto, se utiliza para asignar estilos predefinidos
+        </span>
+        <br>permite agregar saltos de línea en el texto o parráfo<br>
+        <wbr>Permite agregar una sugerencia al navegador donde sue pueden <wbr>
+            encontrar saltos de línea.<br><br>
+        <h3>Formato a las palabras del párrafo</h3>
+        La <em>programación web</em> depende de varios elementos <strong>claves</strong>, para su desarrollo <br>
+        pero al final su <i>elemento</i> clave es <i><b><u>html</u></b></i>, el cual es la base de la <b>programación</b> <rb>
+    </article>
+    <article id="estructurales">
+        <h3>Elementos estructurales</h3>
+        <time datetime="2021-04-08" pubdate>Publicado 08/04/2021</time><br>
+        <mark>Resaltan contenido</mark><br>
+        <small>Representa un tipo de letra pequeño</small><br>
+        <cite>Realizar citas de autores, o títulos</cite><br>
+        <address>Entregan información de contacto</address><br>
+        <time>Fecha y formato en forma legible, datetime y pubdate</time><br>
+        <code>Código de programación, se utiliza con la etiqueta pre</code><br>
+        <data>Datos genericos</data><br><br>
+        Ejemplo código
+        <pre>
+        <code>
+                        def funcion(a, b):
+                            suma = a + b 
+                            return suma
+        </code>
+        </pre>
+        <p><a href="#inicio">Volver al inicio</a></p>
+    <article id="enlaces">
+        <h3>Enlaces</h3>
+        Permiten la conexión entre el documento actual con otro documento del sitio web, el documento actual u <br>
+        un enlace externo.   <br> 
+        Permite el uso de algunos tipos de atributos como <b>target</b>:<br>
+        <b>_self</b><br>
+        <b>_blank</b><br>
+        <b>_parent</b><br>
+        <b>_top</b><br>
+
+        Enviar correos <br>
+        Mediante el uso del atributo mailto <br>
+           
+        Descarga de documentos mediante el uso de los atributos <b>download</b> y <b>ping</b><br>
+        <b>download</b> Es un atributo booleano, que en lugar de abrir el archivo debe descargarlo
+        <b>ping</b> ruta del archivo para abrir en el navegador
+            
+        <p><a href="#inicio">Volver al inicio</a></p>
+    </article>
+    <article id="imagenes">
+        <h3>Imágenes</h3>
+        Incorporar imágenes al contenido del sitio o página.<br><br>
+        Tiene diferentes atributos que nosotros podemos especificar: <br>
+        <b>Width</b><br>
+        <b>height</b><br>
+        <b>srcset</b><br>
+        <b>sizes</b><br>
+        <b>crossorigin</b><br>
+        <br><br>
+        <img src="imagenes/Curso-HTML-1.jpg" alt="Imagen no se encuentra disponible">  
+
+        <picture></picture> 
+
+        <figure>
+            <img src="imagenes/Etiquetas-HTML.jpg" alt="Etiquetas HTML">
+                <figcaption>Etiquetas de HTML</figcaption>
+        </figure>
+
+        <p><a href="#inicio">Volver al inicio</a></p>
+        </article>
+    <article id="Listados">
+        <h3>Listados</h3>
+        Para crear listas existen 3 elementos que podemos utilizar: <br>
+        Lista sin orden<br>
+        Lenguajes de programación:<br>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>GO</li>
+            <li>Java</li>
+        </ul>
+        Listas ordenadas:<br>
+        Tienen atributos que se pueden especificar de acuerdo al contenido, o las preferencias. <br>
+            <b>reversed</b><br>
+            <b>start</b><br>
+            <b>type</b> pueden tomar diferentes valores: 1, a, A, i o I.<br>
+        <ol reversed type="I">
+            <li>Python</li>
+            <li>C</li>
+            <li>C++</li>
+            <li>Rust</li>
+        </ol>
+        Listas para terminos y descripciones: <br>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Es un lenguaje de marcado que a través de la utilización de etiquetas permite crear sitios y páginas web</dd>
+            <dt>C++</dt>
+            <dd>Es un lenguaje de programación orientado a objetos, desarrollado....</dd>
+        </dl>
+        Otros tipos de listas de elementos: <br>
+            <details>
+                <summary>Lenguajes</summary>
+                <p>Python</p>
+                <p>C++</p>
+                <p>Java</p>
+            </details>
+    <p><a href="#inicio">Volver al inicio</a></p>
+    </article>
+    <article id ="tablas">
+        <h3>Tablas</h3>
+        La información se despliega a traves de filas y columnas: <br>
+        <table>
+            <tr>
+                <th colspan="2">Producto</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <td>Monitor</td>
+                <td>samsung</td>
+                <td>80.000</td>
+            </tr>
+            <tr>
+                <td>Teclado</td> 
+                <td>Marca x</td>
+                <td>40000</td>
+            </tr>
+            <tr>
+                <td>Mouse</td>
+                <td>Marca Y</td>
+                <td>12000</td>
+            </tr>
+        </table>
+    <p><a href="#inicio">Volver al inicio</a></p>
+    </article>
+    <article id="formularios">
+        <h3>Formularios</h3>
+        <form>
+
+
+        </form>
+    </article>
+    </section>
+    </main>
+    <footer>
+        <br><br>
+        <address>San Fernando, Chile</address>
+        <small>&copy Taller de Aplicaciones para Internet </small>
+        <a href="mailto:sebastian.santanav@correoaiep.cl">email</a>
+    </footer>
+</body>
+</html>
