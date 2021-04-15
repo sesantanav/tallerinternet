@@ -20,10 +20,44 @@
     <main>
     <section>
        <form name="fcontacto" method="GET">
-            <p><input type="text" name="nombre"></p>
-            <p><input type="text" name="edad"></p>
+            <p> <label>Nombre: <br><input type="text" name="nombre" minlength="30" maxlength="100"></label></p>
+            <p> <label>Edad: <br><input type="number" name="edad" min="15" max="100"></label></p>
+            <p>
+                <label for="direccion">Dirección:<br> </label>
+                <input type="text" name="direccion" id="direccion"> </p>
+            <p>
+                <label for="correo">Email:<br> </label>
+                <input type="email" name="correo" id="correo"> </p>
+            </p>
+            <p>
+                <label for="comentarios">Comentarios: <br></label>
+                <textarea name="comentarios" id="comentarios" cols="50" rows="10"></textarea></p>
+            <p>
+                <label for="listado">Libros: <br></label>
+                <select name="libro" id="listado">
+                <option value="1">IT</option>
+                <option value="2">Carrie</option>
+                <option value="3">El Resplandor</option>
+                <option value="4">Misery</option>
+            </select></p>
             <p><input type="submit">Enviar</p>
+            <p><input type="image" src="imagenes/boton.png"></p>
+            <button>Boton</button>
        </form> 
+       <h3>Fomulario</h3>
+       Elementos 2: <br>
+       <form>
+            <label for="precio">Precio: <br></label>
+            <input type="range" name="precio" min="0" max="1000000" value="250000">
+            <p>
+            <label for="marca">Marca: <br></label>
+            <label><input type="radio" name="marca" value="huawei">Huawei <br></label>
+            <label><input type="radio" name="marca" value="lg">LG <br></label>
+            </p>
+            <p>
+            <input type="date" name="fecha" value="2021-01-01">
+            </p>
+       </form>
    </section>
     </main>
     <footer>
