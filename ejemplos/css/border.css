@@ -1,0 +1,44 @@
+/* border style 
+dotted
+dashed
+solid
+double
+groove
+ridge
+inset
+outset
+none
+hidden
+dotted dashed solid double
+
+*/
+
+
+p.uno{
+    border-style: solid;
+    border-width: thin;
+    border-color: green;
+}
+p.dos{
+    border-style: dotted;
+    border-width: medium;
+    border-color: blue;
+}
+
+p.tres{
+    border-style: solid;
+    border-width: thick;
+    border-color: red;
+}
+p.cuatro{
+    border-bottom: 5px solid magenta;
+    background-color: lightgrey;
+}
+article{
+    border: 5px solid red;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}

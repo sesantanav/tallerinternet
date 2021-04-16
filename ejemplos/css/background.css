@@ -1,0 +1,34 @@
+/*
+background-color
+background-image
+background-repeat
+background-attachment
+background-position
+background
+*/
+
+*{
+    color: black;
+    font-family: Arial;
+}
+body{
+/*    background-color: lightsteelblue; */
+    background-image: url("imagen/codigo-fuente-programacion.jpg");
+}
+section{
+    background-color: lightgrey;
+}
+h1{
+    color: white;
+    text-align: center;
+    background-color: olive;
+    opacity: 0.9;
+    text-shadow: 2px 2px black;
+}
+h3{
+    text-shadow: 2px 2px 5px red;
+    background-color: rgba(2, 189, 2, 0.6);
+}
+p{
+    background-color: lightgrey;
+}
