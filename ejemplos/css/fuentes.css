@@ -1,0 +1,35 @@
+/* Fuentes 
+
+Serif
+Sans-serif
+Monospace
+Cursive
+Fantasy
+*/
+
+p{
+    font-family: "Courier New";
+}
+
+p.cinco{
+    font-style: italic;
+    font-weight: bold;
+}
+
+h3{
+    font-style: italic;
+    font-size: 1.8em; /* 30px/16=1.8em */
+
+}
+
+/* Enlaces 
+no visitado
+a:link{}
+visitado
+a:visited{}
+mouse sobre el link
+a:hover{}
+link seleccionado
+a:active{}
+*/
+

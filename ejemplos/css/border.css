@@ -11,28 +11,60 @@ none
 hidden
 dotted dashed solid double
 
+margin: top right bottom left
+padding: top right bottom left
+
+texto
+color: ;
+
+text-align: center left right justify
 */
+header{
+    margin:auto;
+}
+main{
+    margin: 100px;
+    border-style: solid;
+}
+h1{
+    margin:auto;
+}
 
-
+h3{
+    text-shadow: 1px 2px 5px blue;
+}
 p.uno{
     border-style: solid;
     border-width: thin;
     border-color: green;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-indent: 30px;
+    letter-spacing: 1px;
+    line-height: 4;
+    word-spacing: 10px;
 }
 p.dos{
     border-style: dotted;
     border-width: medium;
     border-color: blue;
+    margin: 25px;
+    padding: 25px;
 }
 
 p.tres{
     border-style: solid;
     border-width: thick;
     border-color: red;
+    margin: 25px 50px 75px;
+    padding: 15px 15px 15px;
 }
 p.cuatro{
     border-bottom: 5px solid magenta;
     background-color: lightgrey;
+    margin: 25px 50px 75px 100px;
 }
 article{
     border: 5px solid red;
@@ -41,4 +73,28 @@ article{
     margin-bottom: 100px;
     margin-left: 100px;
     margin-right: 100px;
+}
+div.recuadro{
+    width: 300px;
+    /* margin: auto; */
+    margin-left: 100px;
+    border: 1px solid green;
+}
+p.cinco{
+    margin-left: inherit;
+    color: blue;
+    text-align: right;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+div.recuadro2{
+    width: 500px;
+    border: 15px solid green;
+    padding: 30px;
+    margin:20px;
+}
+div.imagen1{
+    margin: 20px;
+    padding: 20px;
+    vertical-align:middle;
 }

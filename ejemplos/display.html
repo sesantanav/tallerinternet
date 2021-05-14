@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Elementos display</title>
+<style>
+    h1.hidden{
+        /* display: none; */
+        visibility:visible;
+    }
+    div.static{
+        border: 3px solid blue;
+        position:static;
+    }
+    div.relative{
+        position: relative;
+        border: 2px solid green;
+        left: 20px;
+    }
+    div.fixed{
+        position:fixed;
+        border: 2px solid orange;
+        width: 200px;
+        bottom: 0;
+        right: 0;
+    }
+    div.sticky{
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        padding: 5px;
+        background-color: green;
+        color: white;
+        border: 2px solid blue;
+    }
+    div.texto{
+        border:2px solid green;
+        font-size: 30px;
+    }
+</style>
+</head>
+<body>
+    <h1>Titulo 1. Visible</h1>
+    <h1 class="hidden">Titulo 2. No es visible</h1>
+    <div class="static">
+        <h3>Position static</h3>
+        <p>texto en la posición definida según el flujo de la página</p>
+    </div>
+    <div class="relative">
+        <h3>Position Relative</h3>
+        <p>Texto en una posición relativa</p>
+    </div>
+    <div class="fixed">
+        <p>Texto 3</p>
+    </div>
+    <div class="sticky">Texto Sticky</div>
+    <div class="texto">
+        
+        Lorem ipsum dolor sit amet consectetur adipiscing elit purus, auctor fermentum vehicula convallis imperdiet primis urna erat, penatibus felis integer lacinia in posuere augue. Placerat per pulvinar litora aliquet sodales suspendisse sollicitudin cum convallis, erat accumsan felis congue enim scelerisque urna dapibus, auctor montes pretium vestibulum conubia viverra vulputate ornare. Platea et cubilia volutpat penatibus natoque urna aenean accumsan nunc augue cras, congue vestibulum suscipit id mauris commodo arcu luctus tincidunt sociosqu suspendisse nulla, proin placerat posuere nam himenaeos conubia class odio hendrerit nec.
+
+Porttitor sollicitudin felis orci luctus cubilia enim phasellus mauris purus himenaeos ullamcorper, vulputate lobortis rutrum taciti dictumst dui ligula eu nostra conubia sociosqu donec, auctor torquent integer augue sociis facilisi class at penatibus mollis. Dui fringilla quisque potenti in orci ante eu nam erat, aliquam accumsan senectus hendrerit convallis mollis diam. Placerat scelerisque pulvinar aliquam per donec rhoncus hac tempor tortor risus himenaeos, quisque turpis pellentesque convallis pharetra lobortis vulputate fermentum tellus.
+    </div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+
+Crear un archivo .js que permita calcular una serie de fibonacci
+
+Funcion que calcule factoriales

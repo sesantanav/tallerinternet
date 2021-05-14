@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <title>Ejemplo tabla</title>
+   <meta charset="utf-8">
+   <style>
+       /*
+       table, th, td{
+           border: 1px solid black;
+           border-collapse: collapse;
+       }*/
+        table{
+           width: 100%;
+        }
+        th, td{
+           height: 30px;
+           text-align: left;
+           vertical-align: middle;
+           padding-left: 15px;
+        }
+        th{
+           text-align: center;
+           background-color: green;
+           color: white;
+        } 
+        section{
+           border-style: solid;
+           border-color: green;
+           padding-left: 20px;
+           padding-bottom: 20px;
+           padding-top: 20px;
+           padding-right: 20px;
+           overflow-x: auto;
+        }
+        h2{
+           font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+        }
+        /*
+        th, td{
+           border-bottom: 1px solid grey;
+        }*/
+        tr:hover{
+            background-color: lightgrey;
+        }
+        tr:nth-child(even){
+            background-color: lightsteelblue;
+        }
+   </style>
+</head>
+<body>
+    <section>
+        <h2>Tabla alumnos</h2>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Carrera</th>
+                <th colspan="3">Módulos</th>
+                <th>Rut</th>
+            </tr>
+            <tr>
+                <td>Felipe</td>
+                <td>Rubio</td>
+                <td>Técnico en Programación y análisis de Sistemas</td>
+                <td>aplicaciones para internet</td>
+                <td>Base de datos</td>
+                <td> Ingeniería requerimientos</td>
+                <td>12345567-8</td>
+            </tr>
+            <tr>
+                <td>Braulio</td>
+                <td>Vargas</td>
+                <td>Técnico en Programación y análisis de Sistemas</td>
+                <td>aplicaciones para internet</td>
+                <td>Base de datos</td>
+                <td> Ingeniería requerimientos</td>
+                <td>12345567-8</td>
+            </tr>
+            <tr>
+                <td>Javier</td>
+                <td>Galvez</td>
+                <td>Técnico en Programación y análisis de Sistemas</td>
+                <td>aplicaciones para internet</td>
+                <td>Base de datos</td>
+                <td> Ingeniería requerimientos</td>
+                <td>12345567-8</td>
+            </tr>
+        </table>
+    </section>
+    <section>
+        <table>
+            <tr>
+                <th>Alumno</th>
+                <td>Javier Galvez</td>
+            </tr> 
+            <tr>
+                <th rowspan="3">Módulos</th>
+                <td>Aplicaciones para internet</td>
+            </tr>
+            <tr>
+                <td>Bases de datos</td>
+            </tr>
+            <tr>
+                <td>Ingeniería de Requerimientos</td>
+            </tr>
+        </table>
+    </section>
+</body>
+</html>

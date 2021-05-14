@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Meta tags-->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content= "widht=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <!-- Bootstrap css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    -->
+    <title>Ejemplo Bootstrap</title>
+</head>
+<body>
+    <!-- Las clases que utiliza
+        container   container
+            row         filas
+                col         columnas
+
+        Se utiliza dentro del atributo class de la etiqueta <div> de html
+    -->
+
+    <div class="container">
+       <div class="row">
+            <div class="col">
+                Contenido de la columna
+            </div>
+            <div class="col">
+                Contenido de la columna 2
+            </div>
+            <div class="col">
+                Contenido de la columna 3
+            </div>
+       </div> 
+    </div>
+
+    <div class="container">
+       <div class="row">
+            <div class="col">
+                Contenido de la columna
+            </div>
+            <div class="col">
+                Contenido de la columna 2
+            </div>
+            <div class="col">
+                Contenido de la columna 3
+            </div>
+            <div class="col">
+                Contenido de la columna 3
+            </div>
+            <div class="col">
+                Contenido de la columna 3
+            </div>
+            <div class="col">
+                Contenido de la columna 3
+            </div>
+            <div class="col">
+                Contenido de la columna 3
+            </div>
+       </div> 
+    </div>
+
+    <!-- colores 
+    color de texto
+        text-primary
+        text-secondary
+        text-success
+        text-danger
+        text-warning
+        text-info
+        text-light
+        text-dark
+        text-body
+        text-muted
+        text-white
+        text-white-50
+        text-black-50 
+
+    color de fondo
+        bg-primary
+        bg-success
+        bg-info
+        bg-warning
+        bg-dark
+        bg-light
+    -->
+    <div class="container bg-dark ">
+       <div class="row">
+            <div class="col text-white bg-primary">
+                Contenido de la columna
+            </div>
+            <div class="col text-success">
+                Contenido de la columna 2
+            </div>
+            <div class="col text-white">
+                Contenido de la columna 3
+            </div>
+       </div> 
+    </div>
+
+    <!-- Tamaños 
+        Para los botones utilizar la clase:
+            btn-lg
+            btn-md
+            btn-sm
+
+        Para otros elementos:
+            w-25
+            w-50
+            w-75
+            w-100
+
+        Para el alto cambiar w por una h
+        para los maximos mw o mh
+    -->
+    <div class="container bg-primary w-50">
+       <div class="row">
+            <div class="col text-white ">
+                Contenido de la columna
+            </div>
+            <div class="col text-success w-50">
+                Contenido de la columna 2
+            </div>
+            <div class="col text-white">
+                Contenido de la columna 3
+            </div>
+       </div> 
+    </div>
+
+    <!-- Espaciado
+    
+    {propiedad}{lados}-{tamaño}
+    propiedad
+        m   margin
+        p   padding
+    lados
+        t   top
+        b   bottom
+        l   left
+        r   right
+        x   eje x
+        y   eje y
+            aplica a los 4
+    tamaño
+        0       para eliminar el margen o el padding
+        1-5     diferentes tamaños
+        auto    magen automatico
+    -->
+
+    <div class="container bg-dark m-3 px-4">
+       <div class="row">
+            <div class="col text-white bg-primary">
+                Contenido de la columna
+            </div>
+            <div class="col text-success m-3">
+                Contenido de la columna 2
+            </div>
+            <div class="col text-white p-2">
+                Contenido de la columna 3
+            </div>
+       </div> 
+    </div>
+
+    <!-- bordes -->
+
+    <div class="container m-3 px-4">
+       <div class="row">
+            <div class="col text-white bg-primary">
+                Contenido de la columna
+            </div>
+            <div class="col text-white bg-secondary m-3 border-left border-primary">
+                Contenido de la columna 2
+            </div>
+            <div class="col text-white bg-info p-2 text-center">
+                Contenido de la columna 3
+            </div>
+       </div> 
+    </div>
+
+    <div class="container">
+        <button type="button" class="btn btn-primary">Boton</button>
+
+
+    </div>
+
+
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    -->
+</body>
+</html>
